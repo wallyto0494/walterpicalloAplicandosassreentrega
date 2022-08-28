@@ -1,0 +1,320 @@
+
+
+
+/*main grids index*/
+.gridIndex{
+    display: grid;
+    grid-template-areas: 
+    
+    "tituloPrincipal tituloPrincipal"
+    "primerParrafo primerParrafo"
+    "imgIzq parrafoDerecha"
+    "segundoParrafo segundoParrafo"
+    "parrafoIzq imgDer"
+    
+ ;
+ grid-template-columns: 50% 50%;
+ grid-template-rows: auto auto auto auto auto ;
+}
+.tituloPrincipal{grid-area: tituloPrincipal;}
+.primerParrafo{grid-area: primerParrafo;}
+.imgIzq{grid-area: imgIzq;}
+.parrafoDerecha{grid-area: parrafoDerecha;}
+.segundoParrafo{grid-area: segundoParrafo;}
+.parrafoIzq{grid-area: parrafoIzq;}
+.imgDer{grid-area: imgDer;}
+
+/*servicios main grids */
+
+.gridServicios{
+    display: grid;
+    grid-template-areas:
+    "tituloOfrecemos tituloOfrecemos"
+    "parrafoServicios parrafoServicios"
+    "imgServiciosIz listaServiciosDer";
+    grid-template-columns: 50% 50%;
+ grid-template-rows: auto auto auto  ;
+    
+}
+.tituloOfrecemos{grid-area: tituloOfrecemos;}
+.parrafoServicios{grid-area: parrafoServicios;}
+.imgServiciosIz{grid-area: imgServiciosIz;}
+.listaServiciosDer{grid-area: listaServiciosDer;}
+
+/*contacto main grids */
+
+.gridContacto{
+    display: grid;
+    grid-template-areas:
+    "tituloContacto tituloContacto"
+    "parrafoContactoCentro parrafoContactoCentro"
+    "imgContactoIzq parrafoContactoIzq"
+    "formNye formComentario";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+}
+.tituloContacto{grid-area: tituloContacto;}
+.parrafoContactoCentro{grid-area: parrafoContactoCentro;}
+.imgConctactoIzq{grid-area: imgContactoIzq;}
+.parrafoContactoIzq{grid-area: parrafoContactoIzq;}
+.formNye{grid-area: formNye;}
+.formComentario{grid-area: formComentario;}
+
+/*margenes*/ 
+                /*contacto*/
+.imgContactoIzq{margin-left: 30px;}
+.marginform {margin-left: 28px;
+margin-top: 20px;}
+.marginformC{margin-bottom: 20px; margin-left: 15px;}
+
+              /*index*/
+.imgIzq{margin-left: 25px;}
+.parrafoIzq p{margin-left: 30px;}
+.imgDer{margin-left: 25px;}
+                   /*servicios*/
+.imgServiciosIz{margin-left: 25px; margin-bottom: 15px;}                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+header {
+    background-image: linear-gradient(60deg,black,violet,blue);  /*color fondo */
+   display: flex;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{  list-style: none;    /*sacar puntitos */
+    
+    
+}
+
+ul li a{
+     text-decoration: none;   /* sacando subrayado*/
+    font-size: 35px;  /* tamaño letras */
+    color: rgb(255, 255, 255);  /*color letras*/
+    font-family: fantasy;   /*tipo de letra*/
+    display: block;
+    padding: 12px 26px;  /*margen*/
+   
+
+    }
+
+/*MAIN*/
+         
+             /*IMAGENES DE FONDO */
+.fondoImageni{
+    background-image: url(../assets/img/fondoindex.jpg);  /* fondo de main index */
+}
+
+.fondoImagenn{
+    background-image:url(../assets/img/fondonosotros.jpg) ; /*fondo de main nosotros */
+}
+.fondoImagenc{
+    background-image: url(../assets/img/fondocontacto.jpg); /*fondo de main contacto */
+}
+.fondoImagenp{
+    background-image: url(../assets/img/fondoproducto.jpg); /*fondo main producto */
+}
+.fondoImagens{
+    background-image: url(../assets/img/fondoservicios.jpg); /*fondo main servicios */
+}
+                    /*COLORES DE LETRA*/
+.blanco{
+    color: whitesmoke;  /*color de la letra en main TODAS LAS PAG*/
+}
+                    /* SIZE Y FAMILY*/
+.customI{                      /*titulo vestime que me gusta index  */
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    line height: 20px;
+    text-shadow:3px,3px,3px
+ }
+ .customP{                         /*parrafos*/
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    }
+                 /*centrar img primera de index y contacto- tablas y listas  */
+
+
+         /*titulo pag nosotros y contacto */
+    .subr{
+        text-decoration: underline;
+    }
+         /* 10años de exp - nosotros */
+    blockquote{
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+                    /*titulo las mejores prendas para vestir y servicios que ofrecemos  */
+    .sizeP {
+    font-size: 30px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+                /*letra , borde , fondo tabla principal producto */
+.customTabla{
+    font-size: 20px;
+    border: rgb(245, 2, 245);
+    background-color: rgb(0, 0, 0);
+}
+             /* borde y letra items de tabla */
+.customItems{
+    border: blueviolet;
+    background-color: black;
+}
+
+.serviciosCustom{     /* letraen lista pagina servicios */
+    font-size: 30px;
+}
+
+
+
+
+
+/*FOOTER*/
+                            /* fondo footer */
+
+footer {
+    background-image: linear-gradient(60deg,blue,violet,black);
+    
+}
+
+    
+/*contenido footer*/
+.footer-content{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  /*final footer */
+.footer-bottom{   
+    text-align: center;
+}
+.footer-content li a{
+    font-size: 17px;
+}
+
+span{
+    background: linear-gradient(to right, blue,rgb(243, 5, 5),black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+   /*vista mobile*/
+
+
+    
+@media only screen and (max-width: 768px){
+
+        /*tamaño letra menu header*/
+   
+    ul li a {
+        font-size: 15px;
+    }
+         /*grid index*/
+    .gridIndex{
+        display: grid;
+        grid-template-areas: 
+        
+        "tituloPrincipal tituloPrincipal"
+        "primerParrafo primerParrafo"
+        "imgIzq parrafoDerecha"
+        "segundoParrafo segundoParrafo"
+        "imgDer imgDer"
+        "parrafoIzq parrafoIzq"
+        
+     ;
+     grid-template-columns: 50% 50%;
+     grid-template-rows: auto auto auto auto auto auto ;
+    }
+    .tituloPrincipal{grid-area: tituloPrincipal;}
+    .primerParrafo{grid-area: primerParrafo;}
+    .imgIzq{grid-area: imgIzq;}
+    .parrafoDerecha{grid-area: parrafoDerecha;}
+    .segundoParrafo{grid-area: segundoParrafo;}
+    .parrafoIzq{grid-area: parrafoIzq;}
+    .imgDer{grid-area: imgDer;}
+       /*grid servicios*/
+
+    .gridServicios{
+        display: grid;
+        grid-template-areas:
+        "tituloOfrecemos tituloOfrecemos"
+        "parrafoServicios parrafoServicios"
+        "imgServiciosIz imgServiciosIzq"
+        "listaServiciosDer listaServiciosDer";
+        grid-template-columns: 50% 50%;
+     grid-template-rows: auto auto auto auto  ;
+        
+    }
+    .tituloOfrecemos{grid-area: tituloOfrecemos;}
+    .parrafoServicios{grid-area: parrafoServicios;}
+    .imgServiciosIz{grid-area: imgServiciosIz;}
+    .listaServiciosDer{grid-area: listaServiciosDer;}
+
+        /*grid contacto*/
+
+        .gridContacto{
+            display: grid;
+            grid-template-areas:
+            "tituloContacto tituloContacto"
+            "parrafoContactoCentro parrafoContactoCentro"
+            "imgContactoIzq parrafoContactoIzq"
+            "formNye formNye"
+            "formComentario formComentario";
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto auto auto auto auto ;
+        }
+        .tituloContacto{grid-area: tituloContacto;}
+        .parrafoContactoCentro{grid-area: parrafoContactoCentro;}
+        .imgConctactoIzq{grid-area: imgContactoIzq;}
+        .parrafoContactoIzq{grid-area: parrafoContactoIzq;}
+        .formNye{grid-area: formNye;}
+        .formComentario{grid-area: formComentario;}
+             
+
+
+        
+}
