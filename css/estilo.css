@@ -1,6 +1,4 @@
 
-
-
 /*main grids index*/
 .gridIndex{
     display: grid;
@@ -60,19 +58,35 @@
 .formNye{grid-area: formNye;}
 .formComentario{grid-area: formComentario;}
 
-/*margenes*/ 
+/*margenes y padding */ 
                 /*contacto*/
 .imgContactoIzq{margin-left: 30px;}
 .marginform {margin-left: 28px;
 margin-top: 20px;}
 .marginformC{margin-bottom: 20px; margin-left: 15px;}
+.paddingC {padding-left: 15px;  }
 
               /*index*/
 .imgIzq{margin-left: 25px;}
 .parrafoIzq p{margin-left: 30px;}
 .imgDer{margin-left: 25px;}
+.parrafoDerecha{padding-right: 15px;  } 
+.segundoParrafo{ padding-left: 15px;   }
+.paddingI{padding-left: 15px;  } 
+
+
                    /*servicios*/
-.imgServiciosIz{margin-left: 25px; margin-bottom: 15px;}                   
+.imgServiciosIz{margin-left: 25px; margin-bottom: 15px;}  
+.tituloOfrecemos , .parrafoServicios {padding-left: 15px;   }
+
+    /*producto*/
+.paddingP {padding-left: 15px;
+ padding-bottom: 15px;    }
+     /*nosotros*/
+.paddingN { padding-left: 15px; padding-bottom: 10px;   }
+ 
+
+               
 
 
    /*hover*/
