@@ -1,0 +1,46 @@
+
+header{
+    background-color: aqua;
+    div{
+        padding: 10px;
+        a{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+
+nav{
+    background-color: violet;
+    ul{
+        list-style: none;
+        li{
+            text-decoration: none;   /* sacando subrayado*/
+            font-size: 35px;  /* tamaño letras */
+            color: rgb(255, 255, 255);  /*color letras*/
+            font-family: fantasy;   /*tipo de letra*/
+            display: block;
+            padding: 12px 26px;  /*margen*/
+        
+
+        }
+    }
+    
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
+
+
+
+
+
+
