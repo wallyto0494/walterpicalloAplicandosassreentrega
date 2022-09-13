@@ -1,0 +1,24 @@
+            /*IMAGENES DE FONDO */
+            .fondoImageni{
+                background-image: url(../assets/img/fondoindex.jpg);  /* fondo de main index */
+            }
+            
+            .fondoImagenn{
+                background-image:url(../assets/img/fondonosotros.jpg) ; /*fondo de main nosotros */
+            }
+            .fondoImagenc{
+                background-image: url(../assets/img/fondocontacto.jpg); /*fondo de main contacto */
+            }
+            .fondoImagenp{
+                background-image: url(../assets/img/fondoproducto.jpg); /*fondo main producto */
+            }
+            .fondoImagens{
+                background-image: url(../assets/img/fondoservicios.jpg); /*fondo main servicios */
+            }
+
+            /*centrando imagenes dentro de grid interno*/
+
+.centerImgServicio{
+    display: flex;
+    justify-content: center;
+}

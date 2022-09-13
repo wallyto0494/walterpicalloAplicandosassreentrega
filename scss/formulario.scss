@@ -1,0 +1,51 @@
+ /*contacto boton formulario*/
+
+ .btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.btn-blue{
+    color: white;
+    background-color: #2600ff;
+}
+.btn-blue:hover{
+    background-color: #37b839;
+}
+.btn-blue:active{
+    background-color: #29962a;
+}
+form{
+    width: 300px;
+    background-color: white;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 15px;
+    color: #999;
+    font-size: 12px;
+
+}
+input, textarea{
+    width: 280px
+}
+textarea{
+    padding: 10px
+}
+
+label{
+    color: violet;
+    font-size: 15px;
+}
+
+.field{
+    border: solid 2px #ccc;
+    padding: 10px;
+    width: 280px;
+}
+.field:focus{
+    border-color: black;
+
+}

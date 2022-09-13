@@ -1,0 +1,99 @@
+/*main grids index*/
+.gridIndex{
+    display: grid;
+    grid-template-areas: 
+    
+    "tituloPrincipal tituloPrincipal"
+    "primerParrafo primerParrafo"
+    "imgIzq parrafoDerecha"
+    "segundoParrafo segundoParrafo"
+    "parrafoIzq imgDer"
+    
+ ;
+ grid-template-columns: 50% 50%;
+ grid-template-rows: auto auto auto auto auto ;
+}
+.tituloPrincipal{grid-area: tituloPrincipal;}
+.primerParrafo{grid-area: primerParrafo;}
+.imgIzq{grid-area: imgIzq;}
+.parrafoDerecha{grid-area: parrafoDerecha;}
+.segundoParrafo{grid-area: segundoParrafo;}
+.parrafoIzq{grid-area: parrafoIzq;}
+.imgDer{grid-area: imgDer;}
+
+/*servicios main grids */
+
+.gridServicios{
+    display: grid;
+    grid-template-areas:
+    "tituloOfrecemos tituloOfrecemos"
+    "parrafoServicios parrafoServicios"
+    "imgServiciosIz listaServiciosDer";
+    grid-template-columns: 50% 50%;
+ grid-template-rows: auto auto auto  ;
+    
+}
+.tituloOfrecemos{grid-area: tituloOfrecemos;}
+.parrafoServicios{grid-area: parrafoServicios;}
+.imgServiciosIz{grid-area: imgServiciosIz;}
+.listaServiciosDer{grid-area: listaServiciosDer;}
+
+/*grid interno en servicios*/
+
+
+.gridInternoServicio{
+    display: grid;
+    grid-template-areas: 
+    "primerServicio segundoServicio tercerServicio cuartoServicio";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto ;
+}
+
+.primerServicio{grid-area: primerServicio;  ; margin: 5px; border-style: dashed; padding: 10px;}
+.segundoServicio{grid-area: segundoServicio;margin: 5px; border-style: dashed; padding: 10px;}
+.tercerServicio{grid-area: tercerServicio;margin: 5px; border-style: dashed; padding: 10px;}
+.cuartoServicio{grid-area: cuartoServicio;margin: 5px; border-style: dashed; padding: 10px;}
+
+/*grid en nosotros*/
+
+.gridNosotros{
+    display: grid;
+    grid-template-areas: "personaUno personaDos";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+.personaUno{grid-area: personaUno; margin: 5px; padding: 10px; background-color: pink;}
+.personaDos{grid-area: personaDos; margin: 5px; padding: 10px; background-color: pink;}
+
+/*segundo grid en nosotros*/
+
+.gridMisionV{
+    display: grid;
+    grid-template-areas: "misionYv imagenMV"
+    ;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto ;
+}
+.misionYv{grid-area: misionYv;margin: 99px; background-color: blueviolet; padding: 25px; border: 2px;margin: 152px;}
+
+.imagenMV{grid-area: imagenMV;display: flex;justify-content: center; padding: 20px;}
+
+/*contacto main grids */
+
+.gridContacto{
+    display: grid;
+    grid-template-areas:
+    "tituloContacto tituloContacto"
+    "parrafoContactoCentro parrafoContactoCentro"
+    "imgContactoIzq parrafoContactoIzq"
+    "formNye formComentario";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+}
+.tituloContacto{grid-area: tituloContacto;}
+.parrafoContactoCentro{grid-area: parrafoContactoCentro;}
+.imgConctactoIzq{grid-area: imgContactoIzq;}
+.parrafoContactoIzq{grid-area: parrafoContactoIzq; padding: 15px;margin: 15px; border: 10px;}
+.formNye{grid-area: formNye; margin: 20px}
+.formComentario{grid-area: formComentario;}
+
