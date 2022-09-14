@@ -1,0 +1,6 @@
+@each $tipografia in Arial , Tahoma{
+    .letra-#{$tipografia} {
+        font-family: #{$tipografia};
+    }
+}
+

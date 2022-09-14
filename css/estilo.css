@@ -1,8 +1,18 @@
 @charset "UTF-8";
+.blanco {
+  color: white; }
+
+.negro {
+  color: black; }
+
 /*main grids index*/
 .gridIndex {
   display: grid;
-  grid-template-areas: "tituloPrincipal tituloPrincipal" "primerParrafo primerParrafo" "imgIzq parrafoDerecha" "segundoParrafo segundoParrafo" "parrafoIzq imgDer";
+  grid-template-areas: "tituloPrincipal tituloPrincipal"
+ "primerParrafo primerParrafo"
+ "imgIzq parrafoDerecha"
+ "segundoParrafo segundoParrafo"
+ "parrafoIzq imgDer";
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto auto auto auto; }
 
@@ -30,7 +40,9 @@
 /*servicios main grids */
 .gridServicios {
   display: grid;
-  grid-template-areas: "tituloOfrecemos tituloOfrecemos" "parrafoServicios parrafoServicios" "imgServiciosIz listaServiciosDer";
+  grid-template-areas: "tituloOfrecemos tituloOfrecemos"
+ "parrafoServicios parrafoServicios"
+ "imgServiciosIz listaServiciosDer";
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto auto; }
 
@@ -120,7 +132,10 @@
 /*contacto main grids */
 .gridContacto {
   display: grid;
-  grid-template-areas: "tituloContacto tituloContacto" "parrafoContactoCentro parrafoContactoCentro" "imgContactoIzq parrafoContactoIzq" "formNye formComentario";
+  grid-template-areas: "tituloContacto tituloContacto"
+ "parrafoContactoCentro parrafoContactoCentro"
+ "imgContactoIzq parrafoContactoIzq"
+ "formNye formComentario";
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto auto auto; }
 
@@ -338,15 +353,7 @@ span {
 h5 {
   font-size: 20px; }
 
-.negro {
-  color: black; }
-
 /*MAIN*/
-/*COLORES DE LETRA*/
-.blanco {
-  color: whitesmoke;
-  /*color de la letra en main TODAS LAS PAG*/ }
-
 /* SIZE Y FAMILY*/
 .customI {
   /*titulo vestime que me gusta index  */
@@ -466,7 +473,13 @@ blockquote {
   /*grid index*/
   .gridIndex {
     display: grid;
-    grid-template-areas: "tituloPrincipal" "primerParrafo" "imgIzq" "parrafoDerecha" "segundoParrafo" "imgDer" "parrafoIzq";
+    grid-template-areas: "tituloPrincipal"
+ "primerParrafo"
+ "imgIzq"
+ "parrafoDerecha"
+ "segundoParrafo"
+ "imgDer"
+ "parrafoIzq";
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto auto auto auto auto; }
   .tituloPrincipal {
@@ -486,7 +499,10 @@ blockquote {
   /*grid servicios*/
   .gridServicios {
     display: grid;
-    grid-template-areas: "tituloOfrecemos tituloOfrecemos" "parrafoServicios parrafoServicios" "imgServiciosIz imgServiciosIzq" "listaServiciosDer listaServiciosDer";
+    grid-template-areas: "tituloOfrecemos tituloOfrecemos"
+ "parrafoServicios parrafoServicios"
+ "imgServiciosIz imgServiciosIzq"
+ "listaServiciosDer listaServiciosDer";
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto; }
   .tituloOfrecemos {
@@ -503,7 +519,12 @@ blockquote {
   /*grid contacto*/
   .gridContacto {
     display: grid;
-    grid-template-areas: "tituloContacto" "parrafoContactoCentro"  "imgContactoIzq" "parrafoContactoIzq" "formNye" "formComentario";
+    grid-template-areas: "tituloContacto"
+ "parrafoContactoCentro" 
+ "imgContactoIzq"
+ "parrafoContactoIzq"
+ "formNye"
+ "formComentario";
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto auto auto auto; }
   .tituloContacto {
@@ -524,9 +545,46 @@ blockquote {
   /*nosotros*/
   .gridMisionV {
     display: grid;
-    grid-template-areas: "misionYv" "imagenMV";
+    grid-template-areas: "misionYv"
+ "imagenMV";
     grid-template-columns: 100%;
     grid-template-rows: auto auto; }
   /*productos*/
   .container {
     flex-wrap: wrap; } }
+
+.margen-1 {
+  margin: 5px; }
+
+.margen-2 {
+  margin: 10px; }
+
+.margen-3 {
+  margin: 15px; }
+
+.margen-4 {
+  margin: 20px; }
+
+.margen-5 {
+  margin: 25px; }
+
+.margen-6 {
+  margin: 30px; }
+
+.margen-7 {
+  margin: 35px; }
+
+.margen-8 {
+  margin: 40px; }
+
+.margen-9 {
+  margin: 45px; }
+
+.margen-10 {
+  margin: 50px; }
+
+.letra-Arial {
+  font-family: Arial; }
+
+.letra-Tahoma {
+  font-family: Tahoma; }
