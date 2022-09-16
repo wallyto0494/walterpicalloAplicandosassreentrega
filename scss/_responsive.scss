@@ -19,6 +19,8 @@
     }
 
    
+
+   
      .horizontal{
         display: flex;
         flex-direction: column;
@@ -40,15 +42,25 @@
         
      ;
      grid-template-columns: 100%;
-     grid-template-rows: auto auto auto auto auto auto auto ;
+     grid-template-rows: auto auto auto auto auto auto  ;
     }
     .tituloPrincipal{grid-area: tituloPrincipal;}
     .primerParrafo{grid-area: primerParrafo;}
-    .imgIzq{grid-area: imgIzq;}
+    .imgIzq{grid-area: imgIzq;margin-left: 15px;}
     .parrafoDerecha{grid-area: parrafoDerecha;}
     .segundoParrafo{grid-area: segundoParrafo;}
     .parrafoIzq{grid-area: parrafoIzq;}
-    .imgDer{grid-area: imgDer;}
+
+    .imgDer{
+        display: none;
+    }
+    
+
+
+
+
+
+
 
        /*grid servicios*/
 
@@ -95,7 +107,7 @@
         .formComentario{grid-area: formComentario;}
 
         .marginform{
-            margin-left: 56px;
+            margin-left: 14px;
             margin-bottom: 25px;
             
         }
