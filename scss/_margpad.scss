@@ -9,7 +9,7 @@
                               /*index*/
                 .imgIzq{margin-left: 117px;}
                 .parrafoIzq p{margin-left: 30px;}
-                .imgDer{margin-left: 25px;}
+                .imgDer{margin-left: 25px; margin-bottom: 15px;}
                 .parrafoDerecha{padding-right: 15px;  } 
                 .segundoParrafo{ padding-left: 15px;   }
                 .paddingI{padding-left: 15px;  } 
@@ -24,4 +24,30 @@
                  padding-bottom: 15px;    }
                      /*nosotros*/
                 .paddingN { padding-left: 15px; padding-bottom: 10px;}
+
+                /*titulo*/
+
+                h1{
+                    padding-top: 15px;
+                    padding-bottom: 10px;
+                }
+                .tituloPrincipal{
+                    
+                    padding-top: 15px;
+
+                }
+
+                /*subservicios en servicios */
+
+                .subservicio{
+                    border-style: dashed;
+                     padding: 10px;
+                }
+
+                .container-fluid{
+                    padding-bottom: 15px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+
                 
