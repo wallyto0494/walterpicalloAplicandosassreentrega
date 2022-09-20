@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Vestimenta,Maquillaje,Diseño de indumentaria,Prendas para vestir"> <!--keywords-->
     <meta name="description" content="Bienvenidos a Vestime Que Me Gusta"> <!--descripcion-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--link scroll-->
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png"> <!--favicon-->
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
@@ -88,11 +89,11 @@
                    <!--personas a cargo , se abre div-->
 
        <div class="gridNosotros">
-            <div class="personaUno">
+            <div data-aos="fade-right" class="personaUno">
                 <h4 class=" subr negro">WALTER PICALLO</h4>
                 <P >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum quisquam ipsam explicabo odio eum. Eaque nobis provident error molestiae unde, illum eligendi, cum deleniti nisi amet, possimus doloremque recusandae pariatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut facere eligendi a dolore officiis dolorum perferendis asperiores! Sapiente, architecto? Placeat voluptatum, saepe fugiat ex dolorum exercitationem magnam sapiente porro obcaecati.</P>
             </div>
-            <div class="personaDos">
+            <div data-aos="fade-left" class="personaDos">
                 <h4 class=" subr negro">CINTIA TORRES</h4>
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nobis inventore voluptates nam? Quasi accusantium hic minus delectus nostrum ipsam! Quo repudiandae ab quia voluptatem veniam. Sed iusto omnis Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit numquam ducimus unde enim libero possimus ullam accusamus provident, animi autem nulla! Nobis rem voluptatem ducimus, inventore minus laborum officia modi.</P>
             </div>
@@ -100,15 +101,15 @@
 
                       <!--MISION Y VISION DE LA EMPRESA , SE ABRE DIV-->
 
-        <div class="gridMisionV blanco">
-            <div class="misionYv">
+        <div  class="gridMisionV blanco">
+            <div data-aos="flip-up" class="misionYv">
                 <h4 class="subr" >MISION</h4>
             <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab enim saepe obcaecati pariatur! Non animi tempore doloribus dicta eum sapiente architecto. Quos veritatis possimus ipsam laudantium nulla numquam excepturi quasi!</P>
 
                <h4 class="subr">VISION</h4>
              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reprehenderit neque, totam a beatae, tempore voluptatem veritatis modi officia ducimus provident eaque, ipsum aspernatur voluptas facere hic quos impedit. Corporis!</P>
             </div>
-            <div class="imagenMV">
+            <div data-aos="fade-left" class="imagenMV">
                 <img src="../assets/img/parejanosotros.jpg" alt="imagen pareja" height="600" width="500">
               </div>
 
@@ -145,6 +146,9 @@
             
        </footer>
        <!--cierre footer-->
-    
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--script scroll-->
+       <script>
+        AOS.init();
+      </script>
 </body>
 </html>

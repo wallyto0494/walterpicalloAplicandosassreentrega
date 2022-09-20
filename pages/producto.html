@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Vestimenta,Maquillaje,Diseño de indumentaria,Prendas para vestir,Jeans,Zapatos,Camisas,Lentes"> <!--keywords-->
     <meta name="description" content="Bienvenidos a Vestime Que Me Gusta"> <!--descripcion-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--link scroll-->
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png"> <!--favicon-->
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
@@ -67,7 +68,7 @@
 
         
         
-          <div>
+          <div data-aos="flip-down">
                 <!--tabla-->
          <table border="3" cellpadding="20" cellspacing="5" width="100%" class="blanco">
             <!--fila encabezado-->
@@ -113,8 +114,8 @@
 
       <!--apertura cards-->
 
-      <div class="container">
-        <div class="cards">
+      <div  class="container">
+        <div data-aos="zoom-in" class="cards">
             <figure>
                 <img src="../assets/img/jeans.jpg" alt="jeans">
             </figure>
@@ -124,7 +125,7 @@
                 <a href="#">Ver mas</a>
             </div>
         </div>
-        <div class="cards">
+        <div data-aos="zoom-in" class="cards">
             <figure>
                 <img src="../assets/img/camisas.jpg" alt="camisas">
             </figure>
@@ -134,7 +135,7 @@
                 <a href="#">Ver mas</a>
             </div>
         </div>
-        <div class="cards">
+        <div data-aos="zoom-in" class="cards">
             <figure>
                 <img src="../assets/img/zapatos.jpg" alt="zapatos">
             </figure>
@@ -144,7 +145,7 @@
                 <a href="#">Ver mas</a>
             </div>
         </div>
-        <div class="cards">
+        <div data-aos="zoom-in" class="cards">
             <figure>
                 <img src="../assets/img/lentes.jpg" alt="lentes">
             </figure>
@@ -182,6 +183,9 @@
             
        </footer>
        <!--cierre footer-->
-
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--script scroll-->
+       <script>
+        AOS.init();
+      </script>
 </body>
 </html>
