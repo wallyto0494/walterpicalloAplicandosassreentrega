@@ -79,14 +79,14 @@
 .imagenMV{grid-area: imagenMV;display: flex;justify-content: center; padding: 20px;}
 
 /*contacto main grids */
-
+/*
 .gridContacto{
     display: grid;
     grid-template-areas:
     "tituloContacto tituloContacto"
     "parrafoContactoCentro parrafoContactoCentro"
     "imgContactoIzq parrafoContactoIzq"
-    "formNye formComentario";
+    "formNye formNye ";
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto;
 }
@@ -95,5 +95,6 @@
 .imgConctactoIzq{grid-area: imgContactoIzq;}
 .parrafoContactoIzq{grid-area: parrafoContactoIzq; padding: 15px;margin: 15px; border: 10px;}
 .formNye{grid-area: formNye; margin: 20px}
-.formComentario{grid-area: formComentario;}
+
+*/
 

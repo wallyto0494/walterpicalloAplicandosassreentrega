@@ -124,39 +124,29 @@
   padding: 20px; }
 
 /*contacto main grids */
-.gridContacto {
-  display: grid;
-  grid-template-areas: "tituloContacto tituloContacto" "parrafoContactoCentro parrafoContactoCentro" "imgContactoIzq parrafoContactoIzq" "formNye formComentario";
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto auto auto auto; }
+/*
+.gridContacto{
+    display: grid;
+    grid-template-areas:
+    "tituloContacto tituloContacto"
+    "parrafoContactoCentro parrafoContactoCentro"
+    "imgContactoIzq parrafoContactoIzq"
+    "formNye formNye ";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+}
+.tituloContacto{grid-area: tituloContacto;}
+.parrafoContactoCentro{grid-area: parrafoContactoCentro;}
+.imgConctactoIzq{grid-area: imgContactoIzq;}
+.parrafoContactoIzq{grid-area: parrafoContactoIzq; padding: 15px;margin: 15px; border: 10px;}
+.formNye{grid-area: formNye; margin: 20px}
 
-.tituloContacto {
-  grid-area: tituloContacto; }
-
-.parrafoContactoCentro {
-  grid-area: parrafoContactoCentro; }
-
-.imgConctactoIzq {
-  grid-area: imgContactoIzq; }
-
-.parrafoContactoIzq {
-  grid-area: parrafoContactoIzq;
-  padding: 15px;
-  margin: 15px;
-  border: 10px; }
-
-.formNye {
-  grid-area: formNye;
-  margin: 20px; }
-
-.formComentario {
-  grid-area: formComentario; }
-
+*/
 /*contacto boton formulario*/
 .btn {
   border-radius: 3px;
   display: inline-block;
-  padding: 20px 15px;
+  padding: 20px 228px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
 
@@ -171,7 +161,7 @@
   background-color: #29962a; }
 
 form {
-  width: 300px;
+  width: 1000px;
   background-color: white;
   border-radius: 3px;
   margin: 0 auto;
@@ -192,7 +182,7 @@ label {
 .field {
   border: solid 2px #ccc;
   padding: 10px;
-  width: 280px; }
+  width: 910px; }
 
 .field:focus {
   border-color: black; }
@@ -241,6 +231,17 @@ label {
 .cards .contenido a:hover {
   background: #2fb4cc;
   color: white; }
+
+.verServicio {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+  color: #fcfcfc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease; }
 
 /*hover*/
 /*transition de logo*/
@@ -393,6 +394,11 @@ blockquote {
   /* letraen lista pagina servicios */
   font-size: 30px; }
 
+/*contacto*/
+.backgC {
+  background-color: #e76de7;
+  border-style: double; }
+
 /*margenes y padding */
 /*contacto*/
 .imgContactoIzq {
@@ -521,26 +527,34 @@ h1 {
   .centerImgServicio {
     display: none; }
   /*grid contacto*/
-  .gridContacto {
-    display: grid;
-    grid-template-areas: "tituloContacto" "parrafoContactoCentro"  "imgContactoIzq" "parrafoContactoIzq" "formNye" "formComentario";
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto auto; }
-  .tituloContacto {
-    grid-area: tituloContacto; }
-  .parrafoContactoCentro {
-    grid-area: parrafoContactoCentro; }
-  .imgConctactoIzq {
-    grid-area: imgContactoIzq; }
-  .parrafoContactoIzq {
-    grid-area: parrafoContactoIzq; }
-  .formNye {
-    grid-area: formNye; }
-  .formComentario {
-    grid-area: formComentario; }
-  .marginform {
-    margin-left: 14px;
-    margin-bottom: 25px; }
+  /*
+        .gridContacto{
+            display: grid;
+            grid-template-areas:
+            "tituloContacto"
+            "parrafoContactoCentro" 
+            "imgContactoIzq"
+            "parrafoContactoIzq"
+            "formNye";
+            grid-template-columns:100%;
+            grid-template-rows: auto auto auto auto auto ;
+        }
+        .tituloContacto{grid-area: tituloContacto;}
+        .parrafoContactoCentro{grid-area: parrafoContactoCentro;}
+        .imgConctactoIzq{grid-area: imgContactoIzq;}
+        .parrafoContactoIzq{grid-area: parrafoContactoIzq;}
+        .formNye{grid-area: formNye;  }
+
+       
+        
+
+        .marginform{
+            
+            margin-left: 14px;
+            margin-bottom: 25px;
+            
+        }
+        */
   /*nosotros*/
   .gridMisionV {
     display: grid;
@@ -549,7 +563,14 @@ h1 {
     grid-template-rows: auto auto; }
   /*productos*/
   .container {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  /*formulario*/
+  form {
+    width: 300px; }
+  input, textarea, .field {
+    width: 200px; }
+  .btn {
+    padding: 25px; } }
 
 .margen-1 {
   margin: 5px; }
